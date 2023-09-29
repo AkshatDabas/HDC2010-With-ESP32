@@ -9,11 +9,11 @@ If you have a new I2C application to go (for example, read the temperature data 
 
 ### Hardware Required
 
-To run this example, you should have one ESP32, ESP32-S, ESP32-C or ESP32-H based development board as well as a MPU9250. MPU9250 is a inertial measurement unit, which contains a accelerometer, gyroscope as well as a magnetometer, for more information about it, you can read the [datasheet of the HDC2010 sensor](https://www.ti.com/lit/gpn/hdc2010).
+To run this example, you should have one ESP32, ESP32-S, ESP32-C or ESP32-H based development board as well as a HDC2010. For more information about it, you can read the [datasheet of the HDC2010 sensor](https://www.ti.com/lit/gpn/hdc2010).
 
 #### Pin Assignment:
 
-**Note:** The following pin assignments are used by default, you can change these in the `menuconfig` .
+**Note:** The following pin assignments are used, you can change these.
 
 |                  | SDA             | SCL           |
 | ---------------- | -------------- | -------------- |
